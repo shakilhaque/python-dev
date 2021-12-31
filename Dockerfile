@@ -1,5 +1,5 @@
 FROM python
-COPY . ./app
+COPY . /app
 WORKDIR /app
 COPY req.txt
 RUN pip install -r req.txt
